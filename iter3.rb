@@ -17,4 +17,4 @@ ventas = {
         sales.select { |k,v| v > numb }
     end
 
-    filter(ventas)
+    print filter(ventas)
